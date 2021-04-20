@@ -50,5 +50,6 @@ var myJSON = JSON.stringify(obj);
 console.log(myJSON);
 ```
 
-### Documentación
-[https://www.json.org/json-es.html](https://www.json.org/json-es.html)
+### Herramientas y referencias
+- [Documentación](https://www.json.org/json-es.html)
+- [Editor online](https://jsoneditoronline.org/)
