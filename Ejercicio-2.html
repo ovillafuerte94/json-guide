@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Tutorial JSON</h1>
+
+    <div id="contenedor"></div>
+
+    <script type="text/javascript">
+        var variosObjetos = [
+            {
+                "name": "Primer elemento",
+                "position": "1º"
+            },
+            {
+                "name": "Segundo elemento",
+                "position": "2º"
+            },
+            {
+                "name": "Tercer elemento",
+                "position": "3º"
+            }
+        ];
+
+        document.getElementById("contenedor").innerHTML = variosObjetos[2].name;
+    </script>
+</body>
+
+</html>
