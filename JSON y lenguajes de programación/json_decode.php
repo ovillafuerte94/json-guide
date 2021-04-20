@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-</head>
-
-<body>
-    <h1>JSON en PHP</h1>
-
-    <div id="contenedor"></div>
-
-    <?php
-
-    $json = '{
+<?php
+$json = '{
             "nombre": "Omar Villafuerte",
             "edad": 26,
             "estudiante": true,
@@ -29,11 +16,6 @@
                 ]
             },
             "vacaciones": null
-        }';
+    }';
 
-    print_r(json_decode($json, true));
-
-    ?>
-</body>
-
-</html>
+print_r(json_decode($json, true));
