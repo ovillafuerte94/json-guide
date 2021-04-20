@@ -53,3 +53,5 @@ console.log(myJSON);
 ### Herramientas y referencias
 - [Documentación](https://www.json.org/json-es.html)
 - [Editor online](https://jsoneditoronline.org/)
+- [Validador](https://jsonlint.com/)
+- [Analizador](http://json.parser.online.fr/)
