@@ -20,17 +20,32 @@
 var variable = { 
   nombre: "Omar Villafuerte",
   getName: function() {
-    alert(nombre);
+    console.log(this.nombre);
   }
 };
 ```
 
-### Analizar JSON en JavaScript
+### Analizar y convertir JSON en Objeto JavaScript
 ```javascript
 JSON.parse();
+```
+
+Ejemplo:
+```javascript
+var obj = JSON.parse('{ "name":"Omar", "age":27, "city":"La Habana"}');
+
+console.log(obj.name)
 ```
 
 ### Convertir objeto de JavaScript en una cadena JSON
 ```javascript
 JSON.stringify();
+```
+
+Ejemplo:
+```javascript
+var obj = { "name":"Omar", "age":26, "city":"La Habana"};
+var myJSON = JSON.stringify(obj);
+
+console.log(myJSON);
 ```
